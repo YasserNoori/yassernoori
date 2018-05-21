@@ -342,6 +342,11 @@ window.onload = function() {
                 break;
         }
     }, false);
+    
+    if(viewport.camera.position.x === -350){
+        alert('#test');
+    }
+    
     // Game Loop
     (function() {
         if (keyState.backward) {
